@@ -43,7 +43,7 @@
 *tag_dining
 
 残念、ここにはないみたいだ。残り１０分。[l][r]
-
+[cm]
 [link target=*tag_a] →下駄箱を探す [endlink][r]
 [link target=*tag_d] →瞑想する [endlink][r]
 [s]
