@@ -41,6 +41,7 @@
 [jump target=*start]
 
 *tag_dining
+[cm]
 
 残念、ここにはないみたいだ。残り１０分。[l][r]
 [cm]
