@@ -46,6 +46,7 @@
 
 [link target=*tag_a] →下駄箱を探す [endlink][r]
 [link target=*tag_d] →瞑想する [endlink][r]
+[s]
 
 *tag_a
 
@@ -54,14 +55,18 @@
 時間切れになってしまった・・・ [l][r]
 
 【　1個END　】[l][r]
+[cm]
 [jump target=*start]
 
 *tag_c
 [cm]
 2つ目も見つけた！[l][r]
+[cm]
+[jump target=*start]
 
 *tag_d
 [cm]
-あきらめた[l][r]
+そのままあきらめた[l][r]
+[cm]
 
 [jump target=*start]
