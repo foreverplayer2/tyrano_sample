@@ -1,46 +1,67 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="隠れたお宝を見つけよう！"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「隠れたお宝を見つけよう！」[l][r]
 
-メロスは激怒した。[l][r]
+家の中に2個のお宝が隠されているよ。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+制限時間内になるべくたくさん見つけよう！[l][r]
 
-(中略)[l][r]
+まず家のどこを探そうかな？[l][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_chair] →リビングの椅子の下を探す [endlink][r]
+[link target=*tag_garden] →庭を探す [endlink][r]
+[link target=*tag_dining] →台所を探す [endlink][r]
 [s]
 
-*tag_sleep
+*tag_chair
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+1つ目のお宝発見！！残り１０分｡[l][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
-
-【 BAD END 】[l][cm]
+[link target=*tag_a] →下駄箱を探す [endlink][r]
+[link target=*tag_c] →自分の部屋をもう一度見てみる [endlink][r]
 
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
+*tag_garden
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+雨に濡れたのでやる気がなくなった。[l][r]
+時間切れになってしまった・・・。[r]
+
+【 ０個END 】[l][cm]
+
+[jump target=*start]
+
+*tag_dining
+
+残念、ここにはないみたいだ。残り１０分。[l][r]
+
+[link target=*tag_a] →下駄箱を探す [endlink][r]
+[link target=*tag_d] →瞑想する [endlink][r]
+
+*tag_a
+
+[cm]
+
+時間切れになってしまった・・・ [l][r]
+
+【　1個END　】[l][r]
+[jump target=*start]
+
+*tag_c
+[cm]
+2つ目も見つけた！[l][r]
+
+*tag_d
+[cm]
+あきらめた[l][r]
 
 [jump target=*start]
