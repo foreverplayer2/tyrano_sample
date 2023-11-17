@@ -26,7 +26,7 @@
 
 [link target=*tag_a] →下駄箱を探す [endlink][r]
 [link target=*tag_c] →自分の部屋をもう一度見てみる [endlink][r]
-
+[s]
 
 
 *tag_garden
